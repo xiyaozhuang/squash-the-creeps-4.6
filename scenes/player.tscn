@@ -6,12 +6,12 @@
 radius = 0.8
 
 [node name="Player" type="CharacterBody3D" unique_id=46690672]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 
 [node name="Pivot" type="Node3D" parent="." unique_id=308735289]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 
 [node name="Character" parent="Pivot" unique_id=945518261 instance=ExtResource("1_3vyb7")]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=751875391]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
 shape = SubResource("SphereShape3D_g2els")
